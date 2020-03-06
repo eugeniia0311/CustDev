@@ -1,0 +1,43 @@
+.circle{
+	border-radius: 50%;
+	background-color: var(--white);
+	width: 200px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: absolute;	
+	left: 60px;
+	bottom: 80px;
+	background: radial-gradient(68.31% 68.31% at 50% 50%, #F9FBFF 0%, #CADEF9 100%), #FFFFFF;
+	line-height: 25px;
+}
+
+.m {
+	font-size: 14px;
+	color: var(--blue);
+} 
+
+.survey{
+	font-size: 34px;
+	color: var(--blue);
+}
+
+.company{
+	color: var(--blue)
+}
+
+.read-more{
+	color: var(--blue);
+	font-size: 10px;
+}
+
+@media screen and (max-width: 600px){
+.circle{
+	left: 50%;
+	transform: translateX(-50%);
+	bottom:-50px;
+}
+
+}

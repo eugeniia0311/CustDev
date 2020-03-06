@@ -1,0 +1,160 @@
+:root {
+ 	--white: white;
+}
+
+:root {
+ 	--blue: #2F80ED;
+}
+
+header{
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 14px;
+	font-weight: normal;
+	width: 1024px;
+	margin: 0 auto;
+	padding-left: 0px;
+}
+
+.header__actions{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header__nav{
+	margin-right: 15px;
+}
+
+.header__nav a{
+	margin-right: 7px;
+}
+
+
+.header__cities a{
+	margin-right: 15px;
+
+}
+
+.header__cities{
+		display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header__actions .button{
+	border: 1px;
+	border-radius: 20px;
+	background-color: var(--white);
+	padding: 10px;
+	color: var(--blue);
+}
+
+.header__link.-up.-white{
+	color: var(--blue);
+
+}
+
+.special{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.burger.-s{
+	display: none;
+}
+
+.header__link{
+	color: var(--white);
+
+}
+.header__link.-up{
+	margin-left: 30px;
+	text-transform:uppercase;
+}
+
+.burger{
+	width: 0;
+}
+
+@media screen and (max-width: 1102px){
+	.header__link.-up{
+		display: none;
+	}
+	.header__link.-up.-white{
+		display: inline;
+	}
+
+	header{
+		width: 80%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.header__link{
+		display: none;
+	}
+
+	.burger{
+		display: flex;
+		width: 20px;
+		height: 20px;
+		border-top: 2px solid var(--white);
+		border-bottom: 2px solid var(--white);
+		justify-content: flex-start;
+		align-items: center;		
+	}
+	
+	.header__actions .button{
+		background-color: var(--transparent);
+		color: var(--white);
+	}
+
+	.burger.-m{
+		border-bottom: 1px solid var(--white);
+		width: 50%;
+		height: 1px;
+
+	}
+
+	.burger.-s{
+		display: block;
+		border: 5px solid transparent;
+		border-top: 5px solid var(--blue);
+		width: 10px;
+		height: 10px;
+			margin-top: 3px;
+	}
+	.burger.-s:hover{
+
+		border: 7px solid transparent;
+		border-top: 7px solid var(--blue);
+	}
+
+}
+
+@media screen and (max-width: 600px){
+	.special{
+		display: none;
+	}
+
+	.header__cities{
+		position: relative;
+	}
+
+	.header__cities .button{
+		position: absolute;
+		left: 15px;
+	}
+
+	.button button{
+		color: #2F80ED;
+	}
+
+	.hero{
+		justify-content: center;
+	}
+}
