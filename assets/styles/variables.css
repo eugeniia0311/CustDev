@@ -18,5 +18,12 @@
  	--transparent: transparent;
 }
 
+:root {
+ 	--gray: #E5E5E5;
+}
+
+:root {
+ 	--d-gray: #636363;
+}
 
 

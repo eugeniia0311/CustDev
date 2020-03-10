@@ -1,0 +1,14 @@
+.who-want{
+	font-size:30px;
+	padding-bottom: 30px;
+}
+
+.professions{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.why{
+	height: 400px;
+}

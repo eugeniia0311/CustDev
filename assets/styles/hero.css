@@ -71,3 +71,15 @@
 	}
 
 }
+
+@media screen and (max-width: 816px){
+
+.main {
+	background-image: url(../img/image2.png);
+	background-repeat: no-repeat;
+	background-size:cover ;
+	position: relative;
+	height: 125vh;
+}
+
+}
