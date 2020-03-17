@@ -1,8 +1,9 @@
 .main{
 	background-image: url(../img/image1.png);
-	height: 700px;
+	height: 100vh;
 	display: flex;
-	
+	background-repeat: no-repeat;
+	background-size: cover;
 	justify-content: ;
 }
 
@@ -40,18 +41,7 @@
 	height: 70%;
 }
 
-.hero__link{
-	background-color: var(--aquamarine);
-	margin-top: 15px;
-	width: 112px;
-	height: 77px;
-	padding:15px; 
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 50px;
-	box-shadow: 0 0 0 10px var(--green);
-}
+
 
 
 @media screen and (max-width: 1102px){

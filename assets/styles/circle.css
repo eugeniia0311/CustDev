@@ -41,3 +41,21 @@
 }
 
 }
+
+.circle.-transparent{
+	border-radius: 50%;
+	background-color: var(--white);
+	width: 200px;
+	height: 200px;
+	position: absolute;	
+	content: "";
+	display: block;
+	right: -100;
+
+}
+
+@media screen and (max-width: 1107px){
+	.circle.-transparent{
+		display: none;
+	}
+}
