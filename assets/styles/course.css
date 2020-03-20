@@ -1,0 +1,52 @@
+.course{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.info{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 30px;
+}
+
+.info__left{ 
+	display: flex;
+ 	flex-wrap: wrap; 
+ 	justify-content: space-between;
+ 	width: 599px;
+ 	font-style:normal; 
+}
+
+.info__left .card h3 h4{
+	font-style: normal;
+	font-weight: 500;
+}
+
+.info__right h3 h4{
+	font-style: normal;
+	font-weight: 500;
+	color: var(--gray);
+} 
+
+.info__right{
+	width: 400px;
+	position: relative;
+}
+.course a{
+
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 143.55%;
+
+/* or 20px */
+text-transform: uppercase;
+
+color: #2F80ED;
+}
