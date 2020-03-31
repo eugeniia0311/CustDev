@@ -2,7 +2,7 @@
 	align-self: center;
 	display: flex;
 	margin: 0 auto;
-	font-size: 30px;
+	font-size: 25px;
 	width: 500px;
 	text-align: center;
 	padding-left: 70px;
@@ -12,13 +12,12 @@
 	display: flex;
 	/*flex-direction: column;*/
 	justify-content: center;
-	align-items: center;
+	align-items: flex-end;
 	padding-top: 30px;
 }
 
 .if-not{
 	/*height: 400px;*/
-	background: radial-gradient(#E5E5E5, white);
 	padding-bottom: 50px;
 }
 
@@ -40,7 +39,11 @@
 	}
 	
 	.cards{
-		padding-bottom: 100px;
+		
+	}
+
+	.you-wont{
+		padding-left: 0;
 	}
 }
 
