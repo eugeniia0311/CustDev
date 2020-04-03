@@ -56,6 +56,16 @@
 	.who-needs{
 		text-align: center;
 	}
+
+	.why .container{
+		background: unset;
+	}
+
+	.why{
+		background-image: url(../img/Rectangle.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
 }
 
 @media screen and (max-width: 1113px){
@@ -66,5 +76,18 @@
 
 	.who-want{
 		margin-left: 15px;
+	}
+}
+
+
+@media screen and (max-width: 608px){
+	.why{
+		background:unset;
+	}
+
+	.why .container{
+		border-radius: 0px 0px  0px 300px;
+		background-color: rgba(47, 128, 237, 0.05);
+		
 	}
 }

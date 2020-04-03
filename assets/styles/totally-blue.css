@@ -1,3 +1,22 @@
 .text{
 	color: var(--gray);
 }
+
+.text h3{
+		color: var(--gray);
+}
+
+.totally-blue .cards .card .card__left img {
+	widows: 30PX;
+}
+
+.card__right{
+	width: 80%;
+}
+
+.card__left{
+	display: flex;
+	align-items: flex-start;
+	height: 100%;
+	
+}
