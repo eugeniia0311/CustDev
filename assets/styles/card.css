@@ -90,6 +90,8 @@ font-family: "Helvetica";
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	box-shadow: 0px 10px 30px rgba(47, 55, 237, 0.1);
+border-radius: 10px;
 }
 
 

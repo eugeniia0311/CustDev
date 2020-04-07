@@ -16,6 +16,8 @@ header{
 	width: 1024px;
 	margin: 0 auto;
 	padding-left: 0px;
+	margin: 0 auto;
+	position: relative;
 }
 
 .header__actions{
