@@ -50,3 +50,64 @@ text-transform: uppercase;
 
 color: #2F80ED;
 }
+
+@media screen and (max-width: 972px){
+	.info__right /*.card*/{
+		margin-right: 100px;
+		width: 300px;
+	}
+
+	.info__left{
+/*		width:200px;*/
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.info__left .card{
+		width: 300px;
+	}
+
+	.info{
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 635px){
+	.info{
+		flex-direction: column;
+	}
+
+	.info__right{
+		margin:0;
+	}
+
+	.course a{
+		justify-content: center;
+	}
+
+	.info__right .circle{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 720px){
+	.info__left .card{
+		width: 250px;
+	}
+}
+
+
+@media screen and (max-width: 720px){
+	.info__left .card{
+		width: 200px;
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 513px){
+	.info__left .card{
+		width: 300px;
+	}
+}

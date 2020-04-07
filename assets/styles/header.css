@@ -160,3 +160,21 @@ header{
 		justify-content: center;
 	}
 }
+
+
+@media screen and (max-width: 816px){
+	.header__link.-up.-white{
+		color: var(--white);
+	}
+
+	.burger.-s{
+		border-top: 5px solid var(--white);
+	}
+
+		.burger.-s:hover{
+
+		border: 7px solid transparent;
+		border-top: var(--white);
+	}
+
+}
