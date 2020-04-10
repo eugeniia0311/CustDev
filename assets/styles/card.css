@@ -95,6 +95,26 @@ border-radius: 10px;
 }
 
 
+.trust__bottom .card{
+	width: 200px;
+}
+
+.trust__bottom .card h3{
+	font-size: 16px;
+}
+
+.trust__bottom .card h4{
+	font-size: 14px;
+	color: var(--d-gray);
+}
+
+.trust__bottom .card .image{
+/*	background-image: url(../img/Ellipse.png);
+	background-color: rgba(47, 128, 237 0.2);
+	background-repeat: no-repeat;
+	background-position:left;
+	filter: alpha(Opacity=70);*/
+}
 
 
 
