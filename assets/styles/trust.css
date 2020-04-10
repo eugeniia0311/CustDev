@@ -41,3 +41,7 @@ justify-content: center;
 	color: var(--blue);
 	flex-wrap: 200;
 }
+
+.trust{
+	margin-bottom: 30px;
+}

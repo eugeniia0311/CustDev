@@ -1,7 +1,7 @@
 .main{
 	background-image: url(../img/image1.png);
 	height: 100vh;
-	display: flex;
+	/*display: flex;*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	justify-content: ;
@@ -41,7 +41,12 @@
 	height: 70%;
 }
 
-
+.main .container{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
 
 
 @media screen and (max-width: 1102px){
