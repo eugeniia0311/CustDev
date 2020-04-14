@@ -9,7 +9,7 @@
 	justify-content: center;
 	position: absolute;	
 	left: 60px;
-	bottom: 80px;
+	bottom: 150px;
 	background: radial-gradient(68.31% 68.31% at 50% 50%, #F9FBFF 0%, #CADEF9 100%), #FFFFFF;
 	line-height: 25px;
 }
@@ -67,5 +67,34 @@
 @media screen and (max-width: 1107px){
 	.circle.-transparent{
 		display: none;
+	}
+}
+
+@media screen and (max-width: 816px){
+	.circle{
+	width: 150px;
+	height: 150px;
+	left:50%;
+	bottom:90px;
+	transform: translateX(-50%);
+	}
+
+	.m {
+	font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 816px){
+
+	.circle{
+		bottom:70px;
+	}
+
+}
+
+@media screen and (max-width: 546px){
+	.circle{
+		bottom: -10px;
+
 	}
 }

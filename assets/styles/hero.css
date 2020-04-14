@@ -37,23 +37,30 @@
 .main__hero{
 	display:flex;
 	align-items: center;
-	justify-content: flex-end;
+	justify-content: center;
+	flex-direction: column;
 	height: 70%;
+	align-self: center;
+	margin-bottom: 300px;
+
 }
 
 .main .container{
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-end;
+	height: 100%;
 }
 
 
-@media screen and (max-width: 1102px){
+@media screen and (max-width: 1122px){
 	.main__hero{
-		margin-right: 15px;
+		margin-right: 100px;
 		justify-content: center;
-		margin: 0 auto;
+		align-items: flex-end;
+		
+		
 	}
 
 	.hero__link {
@@ -69,12 +76,25 @@
 
 @media screen and (max-width: 816px){
 
+	.main__hero{
+		margin-right: 0;
+		align-items: center;
+		margin: 0 auto;
+		align-self: center;
+		padding-bottom: 100px;
+
+	}
+
+	.main .container{
+		justify-content: flex-start;
+	}
+
 .main {
 	background-image: url(../img/image2.png);
 	background-repeat: no-repeat;
 	background-size:cover ;
 	position: relative;
-	height: 125vh;
+	height: 90vh;
 }
 
 }
@@ -82,5 +102,20 @@
 @media screen and (max-width: 400px){
 	.hero{
 		margin-right: 20%;
+	}
+
+	.main .container{
+		align-items: flex-start;
+	}
+
+	.main{
+		height: 100vh;
+	}
+
+}
+
+@media screen and (max-width: 546px){
+	.main{
+		margin-bottom: 100px;
 	}
 }

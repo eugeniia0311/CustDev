@@ -13,8 +13,8 @@ header{
 	justify-content: space-between;
 	font-size: 14px;
 	font-weight: normal;
-	width: 1024px;
-	margin: 0 auto;
+	
+	
 	padding: 0 30px;
 	margin: 0 auto;
 	position: relative;
@@ -91,7 +91,7 @@ header{
 	}
 
 	header{
-		width: 80%;
+	
 		display: flex;
 		justify-content: space-between;
 	}
@@ -138,6 +138,26 @@ header{
 
 }
 
+
+@media screen and (max-width: 816px){
+	.header__link.-up.-white{
+		color: var(--white);
+	}
+
+	.burger.-s{
+		border-top: 5px solid var(--white);
+	}
+
+		.burger.-s:hover{
+
+		border: 7px solid transparent;
+		border-top: var(--white);
+	}
+
+}
+
+
+
 @media screen and (max-width: 600px){
 	.special{
 		display: none;
@@ -162,19 +182,3 @@ header{
 }
 
 
-@media screen and (max-width: 816px){
-	.header__link.-up.-white{
-		color: var(--white);
-	}
-
-	.burger.-s{
-		border-top: 5px solid var(--white);
-	}
-
-		.burger.-s:hover{
-
-		border: 7px solid transparent;
-		border-top: var(--white);
-	}
-
-}

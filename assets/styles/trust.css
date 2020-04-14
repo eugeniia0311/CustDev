@@ -45,3 +45,27 @@ justify-content: center;
 .trust{
 	margin-bottom: 30px;
 }
+
+
+@media screen and (max-width: 1104px){
+	.trust{
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+}
+
+/**/
+
+@media screen and (max-width: 879px){
+	.trust__top__right{
+		display: none;
+	}
+
+	.trust__bottom{
+		flex-wrap: wrap;
+	}
+
+	.person{
+		width: 350px;
+	}
+}
