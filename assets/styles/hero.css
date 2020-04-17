@@ -36,7 +36,7 @@
 
 .main__hero{
 	display:flex;
-	align-items: center;
+	align-items: flex-end;
 	justify-content: center;
 	flex-direction: column;
 	height: 70%;
@@ -74,7 +74,19 @@
 
 }
 
-@media screen and (max-width: 816px){
+
+@media screen and (max-width: 1023px){
+	.main__hero{
+		align-items: flex-start;
+	}
+
+	.hero{
+		margin: 580px;
+	}
+}
+
+
+@media screen and (max-width: 768px){
 
 	.main__hero{
 		margin-right: 0;
@@ -96,6 +108,10 @@
 	position: relative;
 	height: 90vh;
 }
+
+	.hero{
+		margin: 0;
+	}
 
 }
 

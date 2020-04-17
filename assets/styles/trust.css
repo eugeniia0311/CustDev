@@ -69,3 +69,14 @@ justify-content: center;
 		width: 350px;
 	}
 }
+
+
+@media screen and (max-width: 431px){
+	.trust__bottom{
+		flex-direction: column;
+	}
+
+	.trust__top__left{
+		background-position: center;
+	}
+}
