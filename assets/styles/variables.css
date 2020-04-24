@@ -1,34 +1,11 @@
 :root {
  	--white: white;
-}
-
-:root {
  	--blue: #2F80ED;
-}
-
-:root {
  	--aquamarine: #64E2CD;
-}
-
-:root {
  	--green: rgba(100, 226, 205, 0.5);
-}
-
-:root {
  	--transparent: transparent;
-}
-
-:root {
  	--gray: #E5E5E5;
-}
-
-:root {
  	--d-gray: #636363;
-}
-
-:root {
  	--total-gray: #E5E5E5;
+ 	--blue-transparent: rgba(47, 128, 237, 0.05);
 }
-
-
-

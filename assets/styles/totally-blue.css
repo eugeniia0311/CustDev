@@ -35,10 +35,13 @@
 	background-position: center;
 }*/
 
-.totally-blue .container{
+.totally-blue {
 	background-image: url(../img/blue.png);
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+.totally-blue .container {
 	display: flex;
 	justify-content: flex-start;
 	position: relative;

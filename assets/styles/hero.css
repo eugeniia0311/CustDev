@@ -81,12 +81,13 @@
 	}
 
 	.hero{
-		margin: 580px;
+		padding-left: 280px;
+		width: 100%;
 	}
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
 
 	.main__hero{
 		margin-right: 0;
