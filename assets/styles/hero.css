@@ -88,7 +88,6 @@
 
 
 @media screen and (max-width: 767px){
-
 	.main__hero{
 		margin-right: 0;
 		align-items: center;
@@ -102,16 +101,17 @@
 		justify-content: flex-start;
 	}
 
-.main {
-	background-image: url(../img/image2.png);
-	background-repeat: no-repeat;
-	background-size:cover ;
-	position: relative;
-	height: 90vh;
-}
+	.main {
+		background-image: url(../img/image2.png);
+		background-repeat: no-repeat;
+		background-size:cover ;
+		position: relative;
+		height: 90vh;
+	}
 
 	.hero{
 		margin: 0;
+		padding: 0 15px;
 	}
 
 }
