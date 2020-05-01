@@ -156,6 +156,26 @@ border-radius: 10px;
 	align-self: center;
 }
 
+@media screen and (max-width: 912px){
+	.comments__left .card{
+		width: 235px;
+	}
+
+	.comments__right .card.-l{
+		width: 335px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.comments__right .card.-l{
+		width: 500px;
+	}
+
+	.comments__left .card{
+		width: 500px;
+	}
+
+}
 
 @media screen and (max-width: 700px){
 	.cards .card{

@@ -33,6 +33,14 @@
 	font-size: 10px;
 }
 
+.background .circle{
+	position: absolute;
+	content: "";
+	display: flex;
+	right: 0;
+	bottom: 50;
+}
+
 @media screen and (max-width: 600px){
 .circle{
 	left: 50%;

@@ -36,9 +36,17 @@
 }*/
 
 .totally-blue {
-	background-image: url(../img/blue.png);
+		background-image: url(../img/blue.png);
 	background-size: cover;
 	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	flex-wrap: wrap;
+
+	background-size: 90%;
+	background-position: left;
 }
 
 .totally-blue .container {
@@ -58,6 +66,16 @@
 	color:var(--white);
 }
 
+@media screen and (min-width: 1280px) {
+	.totally-blue {
+		background: var(--blue);
+		margin-top: 0;
+	}
+
+	.totally-blue .container{
+		padding: 2%;
+	}
+}
 
 @media screen and (max-width: 967px){
 		.totally-blue .container{
