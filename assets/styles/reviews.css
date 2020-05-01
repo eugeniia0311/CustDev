@@ -117,8 +117,19 @@ display: block;
 		justify-content: center;
 	}
 
+
+
+	.comments .card{
+		width: auto;
+	}
+
+	.comments .card.-l{
+		width: auto;
+	}
+
 	.comments__left{
 		margin: 0;
+
 	}
 
 	.comments__right{
@@ -134,7 +145,8 @@ display: block;
 	}
 
 	.background h1{
-		padding-left: 0;
+		padding-left: 30px;
+		padding-right: 30px;
 	}
 }
 
