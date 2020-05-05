@@ -1,0 +1,26 @@
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.foot__right{
+	display: flex;
+	align-items: center;
+}
+
+.foot__right a{
+	margin-left: 15px;
+	font-size: 14px;
+	color: var(--white);
+}
+
+footer{
+	background-color: #2a6cc6;
+	padding: 20px;
+}
+
+.foot__left h4{
+	color: var(--white);
+	font-weight:  500;
+}
